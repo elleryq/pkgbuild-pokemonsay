@@ -3,5 +3,5 @@
 # runs the main script for running the pokemonthink, and changes
 # back to the previous directory.
 cd /usr/share/pokemonsay
-./pokemonthink.sh \$@
+./pokemonthink.sh $@
 cd - >/dev/null
